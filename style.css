@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+body{
+    background-color:#7b67c3;
+    font-family: 'Varela Round', sans-serif;
+}
+#container{
+
+    border-right: 1px solid black;
+    width: 300px;
+}
+
+.ProcuctName{
+    width: 300px;
+   
+}
+.Amount{
+
+}
+.inpuContent{
+ display: flex;
+    margin: 100px auto;
+    gap: 40px;
+width: 600px;
+height: 400px;
+background-color:white;
+}
+#TextNmaae{
+border: none;
+outline: none;
+border-bottom: 1px solid black;
+}
+#num{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#btn{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.appentContet{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#ul{
+  
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: aqua;
+}
+#appent{
+ margin-right: 30px;
+}
+span{
+    opacity: 0;
+}
+
+#appent:hover span{
+    opacity: 1;
+}
+.visible{
+
+    visibility: hidden;
+    color: red;
+    font-size:13px;
+}
+.visibleAll{
+    visibility: visible;
+ }
